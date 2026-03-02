@@ -1,7 +1,12 @@
+import Navbar from "#components/Navbar";
 import React from "react";
 
 const App = () => {
-  return <div className="bg-red-500">welcome to my portfolio</div>;
+  return (
+    <main>
+      <Navbar />
+    </main>
+  );
 };
 
 export default App;
